@@ -1,0 +1,57 @@
+name: Feature request
+description: An idea for MjPetz, or something you wish it did.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. **Please do not paste API keys, passwords, tokens or private chats. Issues are public.**
+  - type: textarea
+    id: wish
+    attributes:
+      label: What would you like MjPetz to do?
+      description: Tell us the job you are trying to get done, and what gets in the way today.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part is it about?
+      options:
+        - Work (chat, agents, cards)
+        - Play (games, toys)
+        - Share (channels)
+        - Pets and characters
+        - Settings and privacy
+        - Something else
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Which agent is it about, if any?
+      multiple: true
+      options:
+        - Claude Code
+        - Codex
+        - Grok
+        - Hermes
+        - Gemini CLI
+        - Qwen Code
+        - Goose
+        - OpenCode
+        - MjPetz's own brain
+        - Not about one agent
+  - type: input
+    id: version
+    attributes:
+      label: MjPetz version
+      description: Optional. Settings › About shows it.
+  - type: dropdown
+    id: os
+    attributes:
+      label: System
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS
+        - Other

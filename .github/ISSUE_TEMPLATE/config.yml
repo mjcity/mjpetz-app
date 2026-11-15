@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or get help
+    url: https://mjpetz.xyz/support
+    about: Help, or anything you would rather not post in public. You can also email support@mjpetz.xyz.
+  - name: Report a security problem
+    url: https://github.com/mjcity/mjpetz-app/blob/main/SECURITY.md
+    about: Please email security problems to support@mjpetz.xyz instead of opening a public issue.

@@ -1,0 +1,72 @@
+name: Bug report
+description: Something in MjPetz is broken or does not work as it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        **Never paste API keys, passwords, tokens or private chats here. Issues are public.**
+        If a screenshot shows a key or private text, cover it first. For a security problem, email support@mjpetz.xyz instead (see SECURITY.md).
+  - type: input
+    id: version
+    attributes:
+      label: MjPetz version
+      description: Settings › About shows it.
+      placeholder: "0.7.37"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: System
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Which agent were you using?
+      multiple: true
+      options:
+        - Claude Code
+        - Codex
+        - Grok
+        - Hermes
+        - Gemini CLI
+        - Qwen Code
+        - Goose
+        - OpenCode
+        - MjPetz's own brain
+        - No agent / not related to an agent
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you saw, and what you expected instead.
+      placeholder: |
+        1. I asked Orbit to ...
+        2. Then ...
+        3. I expected ..., but ...
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else
+      description: Optional. Cover any key, password or private text before you attach a screenshot.
+  - type: checkboxes
+    id: nokeys
+    attributes:
+      label: Before you send
+      options:
+        - label: This report contains no API keys, passwords, tokens or private chats.
+          required: true
