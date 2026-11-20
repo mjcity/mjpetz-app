@@ -19,4 +19,4 @@ MjPetz is in public beta. Security fixes go into the newest version, listed at t
 
 We will reply as soon as we can, keep you posted while we fix it, and credit you in the release notes if you would like that.
 
-The privacy page at [mjpetz.xyz/privacy](https://mjpetz.xyz/privacy) describes what MjPetz keeps on your computer and what it sends.
+The privacy policy is at [mjpetz.xyz/privacy](https://mjpetz.xyz/privacy).

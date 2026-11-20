@@ -134,7 +134,7 @@ You use the AI accounts you already have. MjPetz does not resell AI, so there is
 - **MjPetz asks before every call recording.** "Listen to my call" shows a card each time, and nothing is recorded before you press Start. The sound is turned into text on your computer.
 - **The update check sends almost nothing.** About once a day MjPetz asks mjpetz.xyz whether there is a newer version, sending only the app's version, the kind of computer, the chip type and a random number made on your computer for the check, which lets us count how many copies are in use. No account, chats, files or agent names. You can turn it off in Settings › Updates.
 
-The full details are on the [privacy page](https://mjpetz.xyz/privacy).
+Questions about privacy: email [support@mjpetz.xyz](mailto:support@mjpetz.xyz). The privacy policy is at [mjpetz.xyz/privacy](https://mjpetz.xyz/privacy).
 
 ## System requirements
 
@@ -179,7 +179,7 @@ Claude Code, Codex, Grok, Hermes, Gemini CLI, Qwen Code, Goose and OpenCode, eac
 <details>
 <summary><b>Does it send my chats anywhere?</b></summary>
 <br>
-Not to us. Your chats, files and recordings stay on your computer, and you never sign in to MjPetz. When you use a cloud agent, what you send goes to that agent's company, the same as without MjPetz. With MjPetz's own brain on your computer, your chats do not leave it. See <a href="#your-privacy">Your privacy</a> and the <a href="https://mjpetz.xyz/privacy">privacy page</a>.
+Not to us. Your chats, files and recordings stay on your computer, and you never sign in to MjPetz. When you use a cloud agent, what you send goes to that agent's company, the same as without MjPetz. With MjPetz's own brain on your computer, your chats do not leave it. See <a href="#your-privacy">Your privacy</a> above.
 </details>
 
 <details>
@@ -212,7 +212,7 @@ No. MjPetz is free to use, and its source code is not public. This repository ho
 
 ## About this repository
 
-This is MjPetz's public home on GitHub. It holds the README, the [changelog](CHANGELOG.md) and the issue forms. The app's source code is not public, and downloads are on [mjpetz.xyz/download](https://mjpetz.xyz/download). MjPetz is free to use under the [terms](https://mjpetz.xyz/terms). See [LICENSE.md](LICENSE.md) and the [privacy page](https://mjpetz.xyz/privacy).
+This is MjPetz's public home on GitHub. It holds the README, the [changelog](CHANGELOG.md) and the issue forms. The app's source code is not public, and downloads are on [mjpetz.xyz/download](https://mjpetz.xyz/download). MjPetz is free to use. See [LICENSE.md](LICENSE.md); the terms of use are at [mjpetz.xyz/terms](https://mjpetz.xyz/terms) and the privacy policy at [mjpetz.xyz/privacy](https://mjpetz.xyz/privacy).
 
 ## Names and trademarks
 
