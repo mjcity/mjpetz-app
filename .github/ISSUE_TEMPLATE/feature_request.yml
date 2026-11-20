@@ -39,13 +39,15 @@ body:
         - Qwen Code
         - Goose
         - OpenCode
-        - MjPetz's own brain
+        - MjPetz's own brain (Full)
+        - MjPetz Mini
         - Not about one agent
   - type: input
     id: version
     attributes:
       label: MjPetz version
       description: Optional. Settings › About shows it.
+      placeholder: "0.7.51"
   - type: dropdown
     id: os
     attributes:
@@ -53,5 +55,7 @@ body:
       options:
         - Windows 11
         - Windows 10
-        - macOS
+        - Mac (Apple silicon)
+        - Linux (.deb)
+        - Linux (AppImage)
         - Other

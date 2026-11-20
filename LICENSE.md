@@ -1,6 +1,6 @@
 # MjPetz licence notice
 
-Copyright (c) 2026 Tech My Money. All rights reserved.
+Copyright (c) 2026 Tech My Money LLC. All rights reserved.
 
 The MjPetz app and the files published in this repository's releases are free to download and use under the terms at **[mjpetz.xyz/terms](https://mjpetz.xyz/terms)**.
 

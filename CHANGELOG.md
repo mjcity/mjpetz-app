@@ -2,6 +2,109 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.51 (20 November 2026)
+
+- **Listen to my call asks before every call.** Each time, a card asks whether everyone has agreed to recording and transcription, and says where the transcript goes. Nothing is recorded before you press Start recording, and only your own click answers the card. It can copy a short notice for you to paste in the meeting chat.
+- **If the notes would go somewhere new after a call started** (for example, the brain was changed or Offline only was turned off), the transcript stays on your computer and MjPetz asks you again before anything is sent.
+
+## 0.7.50 (19 November 2026)
+
+- **Block Brawl Chess now always plays right on your desktop, with no window around it.** It looks and works like the game in a window, but the sky and the frame are gone, so your desktop shows behind the island. A small bar under the game moves, resizes and closes it, and it comes back where you left it.
+- **Clicks on an empty part of the game go to whatever is underneath,** and the scroll wheel zooms the game.
+- **It goes easy on your computer when you are not playing,** drawing far fewer frames, and is back to full speed as soon as you move, click or scroll.
+- **Fixed: Block Brawl always opens again after it was closed.**
+- Block Brawl Chess is Windows only for now. On a Mac or Linux the game says so.
+
+## 0.7.49 (19 November 2026)
+
+- **MjPetz is in public beta.** A slim bar in Studio and Settings says so, with Send feedback, which opens your own mail app to support@mjpetz.xyz. MjPetz sends nothing itself.
+- **Choosing MjPetz's own brain is one clear choice:** Auto, Mini or Full, each with its state and one button. Auto shows which one it picked.
+- **Fixed: after choosing Mini you could get stuck** with no way back to the full brain. A choice of Mini, Full or Auto now always takes effect.
+- **Auto memory size goes by what is free on your computer** when the brain starts, so a computer that can afford it gets a bigger memory, and more of the brain's tools, without changing a setting. If the brain runs out of memory as it starts, it tries the next size down once and says so.
+- **Block Brawl Chess can be played on the desktop with no window** (in 0.7.50 this became the only way).
+
+## 0.7.48 (19 November 2026)
+
+- **New: MjPetz Mini,** a small second brain on your computer for modest PCs. It is instant and simple: timers and reminders, notes, opening apps and pages, a few settings, a list for your day, summing up text you copied, saying why the computer is slow, and chat. When it cannot do something, it says so and offers the full brain or an agent that can. Its download is about 1.3 GB. Auto picks Mini on a computer with under 16 GB of memory and no graphics card with 6 GB or more.
+- **The chat header shows which brain answered,** Mini or Full. Click it to switch that chat.
+- **New game: Block Brawl Chess,** real chess with blocky toy fighters and a short fight for every capture. Play the computer (five levels), two players on one computer, or watch; lessons and missions are in too. It runs entirely on your computer.
+- **MjPetz starts even when Windows cannot find your Documents folder** (for example, when it is on a drive that is not connected). It uses your home folder for now and says so in the chat.
+- **If the chat cannot start, the pet says so in plain words,** with what to try, instead of a bare "Error" box.
+- **Changed-files cards say when another turn was using the folder,** and Undo is offered only for files MjPetz can safely put back.
+
+## 0.7.47 (18 November 2026)
+
+- **Sign in to Grok from inside MjPetz.** A Sign in to Grok button runs Grok's own sign-in and shows its link and code on a card. MjPetz never sees your password.
+- **New agent: Grok API,** Grok on your own xAI API key, next to Grok on your Grok sign-in. MjPetz never switches between the two by itself.
+- **The brain answers date and time questions from your computer's clock,** and works out days such as Christmas or US Thanksgiving with the right weekday.
+- **The brain can list what changed in a folder lately,** newest first, with dates.
+- **Listen to my call and Summarise a recording say truthfully where the notes are written.** The sound is always turned into text on your computer. If the brain is set to a model server or an AI provider, the card names it before you press Start. Pick Plain transcript to send nothing.
+- **Scrolling up while an agent works stays where you put it,** with a Jump to latest button.
+- **Ctrl+Z (Cmd+Z on a Mac) in the message box brings back what you just sent.**
+- **The chat list no longer holds up MjPetz** when you have many saved chats.
+
+## 0.7.46 (18 November 2026)
+
+- **Grok always asks MjPetz before it edits files or runs commands,** even when your own Grok settings say always approve. MjPetz's cards decide, as with the other agents.
+- **Brain downloads that were cut off can carry on** where they stopped.
+
+## 0.7.45 (18 November 2026)
+
+- **The brain on your computer can make its own skills,** instructions it follows in later chats, always after a card that shows the whole text.
+- **The brain finishes more in one go.** It can take more steps for one message and tries another way when a step fails. Every action still asks on a card, and a "no" on a card or Offline only stay hard stops.
+- **At the Small memory size, replies come faster:** the brain leaves much more room for your chat.
+- **Full access: a card only you can answer no longer holds the agent while you are away.** The agent carries on with everything else, and the card waits for you. Nothing is ever allowed for you.
+- **On Linux, the HUD can be dragged and its button works.**
+
+## 0.7.44 (17 November 2026)
+
+- **A chat cut off mid-turn (an update, a crash, a quit) keeps what it had.** Open it again and say "continue". The agent is told to check before repeating anything that sends, posts, deletes or pays.
+- **Full access gives every agent the same written rules** for what it may do on its own and what it asks you first. Nothing about what is allowed has changed.
+
+## 0.7.43 (17 November 2026)
+
+- **Google Antigravity CLI can be added as an agent.** It decides for itself when to ask you, so MjPetz keeps it out of shared channels, automations and work started by other agents.
+- **Misspelt names are found:** when a search finds nothing, the brain tries likely spellings and says which one the results are for.
+- **On Windows the brain can open Microsoft Store apps,** on the same card as other apps.
+- **If Grok stops answering while a chat opens, MjPetz tries again once** and then says which step failed.
+
+## 0.7.42 (16 November 2026)
+
+- **The brain on your computer can search the web and read pages itself,** and says which site an answer came from. With Offline only on, it has no web tools and nothing is sent.
+- **At the Small memory size, web pages are trimmed** to the part about your question, on your computer.
+- **On Linux, MjPetz's own brain gets an engine made for it,** and where there is none yet it says so plainly.
+
+## 0.7.41 (16 November 2026)
+
+- **The brain can save a file or make a folder where you ask,** such as your Desktop or Documents, after a card that shows the full path. MjPetz's own folders and system folders stay off limits.
+- **On a Mac, quitting from outside MjPetz quits it fully again.**
+
+## 0.7.40 (16 November 2026)
+
+- **Memory for conversation: Auto, Small, Medium or Large,** for MjPetz's own brain. Medium and Large keep more of the chat and let the brain use more of its tools. Auto picks by your computer's memory.
+- **The brain can make a folder,** on an allow-once card.
+- **A chat that runs past the brain's memory gets a plain answer** instead of a raw error.
+
+## 0.7.39 (15 November 2026)
+
+- **Two new free pets: Tilt,** a blue slab with two tall eyes, **and Mochi,** a round pink jelly with a sprout.
+- **"What's new" after an update.** One quiet card in the chat shows what changed. Nothing is fetched for it.
+- **"Continue with another agent" when one hits its usage limit.** Nothing switches until you click.
+- **Share a preset:** export one to a small file, and import one with a full review before anything is saved.
+- **Calm pets:** one setting quiets idle play.
+- **Each agent's colour on its replies,** and tables in replies get Expand and Copy.
+- **On Linux, the pet can be picked up and dragged again.**
+- **Studio: select several chats** and archive them together.
+
+## 0.7.38 (15 November 2026)
+
+- **MjPetz tells you when a newer version is out.** At most once a day it asks mjpetz.xyz for the newest version number, sending only its own version, the kind of computer, the chip type and a random number made on your computer for the check. It never downloads or installs anything by itself. Turn it off in Settings › Updates; Offline only stops it too.
+- **MjPetz will not start if its own app files were changed after it was built** (Windows and Mac).
+- **A very long message of yours is folded** after about 8 lines, with Show more.
+- **Right-click a misspelt word** for spelling suggestions.
+- **Claude Code says when work is still running in the background** after a turn ends.
+- **New chat while an agent works opens an empty chat,** not the other chat's steps.
+
 ## 0.7.37 (13 November 2026)
 
 - **Every page result tells the agent which browser it ran in,** so it never names the wrong one.
