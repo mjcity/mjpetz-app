@@ -2,6 +2,17 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.52 (20 November 2026)
+
+- **MjPetz Pro is here.** A one-time purchase of $8.99 unlocks seven extra characters (Bolt, Ember, Halo, Hoot, Ronin, Vanta and the anime Mj) and two games, Block Brawl Chess and Mj: Desktop Run & Gun. You can try each one free for 10 minutes. One purchase covers up to 3 of your own computers, with a full refund within 14 days. Everything else stays free. For now Pro is sold in the United States only.
+- **If you used those characters before,** nothing you made is lost: your saved pets come back the moment you get Pro, and a free pet shows in the meantime.
+- **Block Brawl Chess is Windows only for now.** On a Mac or Linux, MjPetz says so before you buy.
+- **Read aloud now uses your computer's own voices.** Nothing is downloaded for it any more. If you had downloaded the old voice files, Settings lists them so you can delete them.
+- **A welcome box on first launch** shows the Terms and the Privacy Policy before anything starts.
+- **New chat keeps MjPetz's own brain loaded.** The first answer in a new chat comes at once, and the "Waking up" line no longer gets stuck.
+- **If the payment for a Pro key is on hold at your bank,** MjPetz keeps the key and switches Pro on by itself when the payment is released.
+- **Fixed: the level buttons in Block Brawl Chess** fit at every size.
+
 ## 0.7.51 (20 November 2026)
 
 - **Listen to my call asks before every call.** Each time, a card asks whether everyone has agreed to recording and transcription, and says where the transcript goes. Nothing is recorded before you press Start recording, and only your own click answers the card. It can copy a short notice for you to paste in the meeting chat.

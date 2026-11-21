@@ -72,7 +72,7 @@ So I put them all in one place, to work, play and share.
 <img src="assets/play.webp" width="100%" alt="Two more MjPetz games in their own windows: Song Bird on its start screen, with Easy, Medium and Crash Out modes and four birds to choose from, and Orb Catcher, where Bolt the robot catches falling orbs for a score of 40. Bolt stands beside them.">
 
 > [!NOTE]
-> **MjPetz Pro is coming.** It will be a one-time purchase that unlocks extra characters and the two Pro games, Block Brawl Chess and Run & Gun. Each Pro game will have a 10-minute free try. It is not on sale yet.
+> **MjPetz Pro** is a one-time purchase of $8.99, tax included. It unlocks seven extra characters and the two Pro games, Block Brawl Chess (Windows only for now) and Mj: Desktop Run & Gun. You can try each one free for 10 minutes first. One purchase covers up to 3 of your own computers, with a full refund within 14 days. For now Pro is sold in the United States only; everything free works everywhere. [Get Pro](https://mjpetz.xyz) from inside MjPetz, in Settings › Pets.
 
 ## Share
 
@@ -161,7 +161,7 @@ Not yet. MjPetz is in public beta: new versions come often, and you may meet bug
 <details>
 <summary><b>What does it cost?</b></summary>
 <br>
-MjPetz is free to download and use, at home or at work, with the AI accounts you already have. There is no subscription from us, and MjPetz does not resell AI. MjPetz Pro, a one-time purchase for extra characters and two games, is coming; it is not on sale yet.
+MjPetz is free to download and use, at home or at work, with the AI accounts you already have. There is no subscription from us, and MjPetz does not resell AI. MjPetz Pro is a one-time purchase of $8.99 for seven extra characters and two games, with a 10-minute free try of each and a full refund within 14 days. For now it is sold in the United States only.
 </details>
 
 <details>
