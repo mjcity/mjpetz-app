@@ -2,6 +2,12 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.56 (22 November 2026)
+
+- On a Mac, MjPetz now finds Claude Code and Codex when they were installed through tools like nvm.
+- When an agent is missing, MjPetz says where it looked and how to install it.
+- Check again now shows that it is checking, and what it found.
+
 ## 0.7.55 (22 November 2026)
 
 - Settings › Agents & Brain has a new "This computer" card that shows your graphics, memory and how well the chosen brain fits, and every model now lists the memory it needs and its download size side by side.
