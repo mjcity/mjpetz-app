@@ -2,6 +2,10 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.54 (21 November 2026)
+
+- With Full access, your agents now share their work with each other again without waiting for you.
+
 ## 0.7.53 (21 November 2026)
 
 - Agents now share what they already know with each other without waiting on a card that never appears.
