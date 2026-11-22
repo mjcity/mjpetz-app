@@ -2,6 +2,10 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.53 (21 November 2026)
+
+- Agents now share what they already know with each other without waiting on a card that never appears.
+
 ## 0.7.52 (20 November 2026)
 
 - **MjPetz Pro is here.** A one-time purchase of $8.99 unlocks seven extra characters (Bolt, Ember, Halo, Hoot, Ronin, Vanta and the anime Mj) and two games, Block Brawl Chess and Mj: Desktop Run & Gun. You can try each one free for 10 minutes. One purchase covers up to 3 of your own computers, with a full refund within 14 days. Everything else stays free. For now Pro is sold in the United States only.
