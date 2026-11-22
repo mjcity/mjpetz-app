@@ -2,6 +2,10 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.55 (22 November 2026)
+
+- Settings › Agents & Brain has a new "This computer" card that shows your graphics, memory and how well the chosen brain fits, and every model now lists the memory it needs and its download size side by side.
+
 ## 0.7.54 (21 November 2026)
 
 - With Full access, your agents now share their work with each other again without waiting for you.
