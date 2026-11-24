@@ -2,6 +2,15 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.57 (24 November 2026)
+
+- A pet you close now hides and comes back with Show Pet, and a pet that crashed rebuilds itself.
+- Pictures and file cards in a chat open when you click them, whichever agent sent them.
+- Approval cards and pet bubbles show the project and the git branch.
+- The chess level buttons fit in small windows.
+- Updating on Windows keeps your shortcuts, and the taskbar icon stays MjPetz's.
+- MjPetz no longer leaves a new Windows notification entry after each update.
+
 ## 0.7.56 (22 November 2026)
 
 - On a Mac, MjPetz now finds Claude Code and Codex when they were installed through tools like nvm.
