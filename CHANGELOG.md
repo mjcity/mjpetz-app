@@ -2,6 +2,12 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.61 (25 November 2026)
+
+- Send now works with one click while an agent is replying, including on a message already in the queue.
+- You’ll see “Sending…” as soon as your click is accepted. Clicking again while it sends won’t send a second copy.
+- If a message can’t be sent right away, MjPetz tells you why and keeps it available to retry.
+
 ## 0.7.60 (25 November 2026)
 
 - Hermes and other supported agents can suggest your next message as part of the same reply, saving a second request.
