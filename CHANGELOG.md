@@ -2,6 +2,14 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.60 (25 November 2026)
+
+- Hermes and other supported agents can suggest your next message as part of the same reply, saving a second request.
+- When two chats finish close together, the suggestion in your message box comes from the chat you’re viewing.
+- Turning off “Suggest your next message” in Settings also stops Claude from making a follow-up request for a suggestion while it waits.
+- For developers, the new harness scoreboard records local model results on 26 repeatable tasks. Qwen3.5-4B passed 21 in the November 25 ASUS baseline.
+- Permission tests now check ordinary and release-named folders independently of the test runner’s location.
+
 ## 0.7.59 (25 November 2026)
 
 - When two agents work at once, each pet shows when its own agent finishes. If the agents share a pet, it stays busy until both finish.
