@@ -2,6 +2,13 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.59 (25 November 2026)
+
+- When two agents work at once, each pet shows when its own agent finishes. If the agents share a pet, it stays busy until both finish.
+- When more than one agent asks for approval, answering one request leaves the other pet waiting for its answer.
+- Compact and Standard chat views group consecutive automatic approvals into one line. Open the group to see each action.
+- Detailed view shows the request first and shortens long commands. Hover over a row or choose Copy for the full notice, or use Verbose to show it in chat.
+
 ## 0.7.58 (24 November 2026)
 
 - In Settings › Chat, choose how much of an agent’s work to show, when its steps fold away and which replies stay visible.
