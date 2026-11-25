@@ -2,6 +2,18 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.58 (24 November 2026)
+
+- In Settings › Chat, choose how much of an agent’s work to show, when its steps fold away and which replies stay visible.
+- Choose whether Enter queues your next message or sends it right away while an agent is working.
+- Turn off Show coding view to hide code and file-change cards in chat.
+- In Studio, choose whether chat links open in your browser or in MjPetz’s side pane.
+- Pasted pictures now sit inside the message box, next to the text you’re writing.
+- You can hide any pet or put a team pet away. Bring either back from the tray’s Pets menu.
+- MjPetz now quits on Windows even when a confirmation dialog is open.
+- If you reinstall MjPetz in a new folder on Windows, your existing start-at-sign-in setting follows it.
+- The Welcome page and Settings give clearer instructions for finding and setting up your agents.
+
 ## 0.7.57 (24 November 2026)
 
 - A pet you close now hides and comes back with Show Pet, and a pet that crashed rebuilds itself.
