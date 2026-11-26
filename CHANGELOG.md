@@ -2,6 +2,15 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.64 (26 November 2026)
+
+- The Second Brain page scrolls and takes clicks again. It was redrawing its list without stopping, so the scroll jumped back to the top and clicks on the filters and the row buttons were lost.
+- Remember this now opens a small box with the words first, so you can shorten or change them before you press Save. Nothing is saved until you do.
+- A note is never cut off. Over 300 characters, the box asks you to shorten the words.
+- If you change an agent’s words before you save, the note counts as yours, and the box tells you so before you save. Saved unchanged, it stays marked as the agent’s.
+- A note you saved from an agent’s reply now says you saved it, not that the agent saved it. Notes already saved show the corrected words too.
+- When a note you save replaces an older note on the same subject, the chat line says so. Undo brings the older one back.
+
 ## 0.7.63 (26 November 2026)
 
 - Workflows are now made and edited in a form anyone can use: a name, what to ask for when you press Run, and a card for each step with its agent, what it should do and which earlier results it gets. The text view is still there under Text, and saved workflows keep working as they are.
