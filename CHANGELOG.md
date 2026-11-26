@@ -2,6 +2,19 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.63 (26 November 2026)
+
+- Workflows are now made and edited in a form anyone can use: a name, what to ask for when you press Run, and a card for each step with its agent, what it should do and which earlier results it gets. The text view is still there under Text, and saved workflows keep working as they are.
+- Editing a workflow, or making a new one, opens full height in place of the workflow you picked.
+- Each channel has one Edit channel window for its name, its agents and its instructions for agents (up to 4000 characters). Its agents get the instructions with every job there. In a shared channel, the host’s instructions reach guests as the host’s words.
+- If you go back to 0.7.62 or older, a channel’s instructions are cut to their first 200 characters there.
+- When you paste formatted text into chat, a Team conversation or an inbox reply, you can edit it as Markdown. Use Ctrl+Shift+V or Cmd+Shift+V for plain text.
+- In the Full brain picker, you can choose how much memory to leave for your other work and set a conversation size for each model.
+- If MjPetz can’t find Claude Code or Codex, you can choose its program in Settings or Welcome.
+- The built-in Mini brain frees its memory after 15 idle minutes and starts again when you need it.
+- When you ask the built-in brain to inspect a file, it distinguishes the request from words inside file paths.
+- For developers, five opt-in experiments are available for the built-in brain. All five default to off.
+
 ## 0.7.62 (25 November 2026)
 
 - If shared channels are still paused on your computer after Offline only, the Share and Join windows now say so, with a Resume button right there.
