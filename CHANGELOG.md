@@ -2,6 +2,12 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.62 (25 November 2026)
+
+- If shared channels are still paused on your computer after Offline only, the Share and Join windows now say so, with a Resume button right there.
+- Joining a shared channel no longer says the other person’s MjPetz is closed while you wait.
+- If an invite has run out, MjPetz says so, so you can ask for a new one.
+
 ## 0.7.61 (25 November 2026)
 
 - Send now works with one click while an agent is replying, including on a message already in the queue.
