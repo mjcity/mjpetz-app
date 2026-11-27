@@ -2,6 +2,14 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.67 (27 November 2026)
+
+- On a Mac, keyboard shortcuts now read the Mac way, with ⌘, ⌥ and ⇧ (for example ⌘N for New chat and ⌥⌘G for Rename chat), in Settings, the shortcut list, the huddle and the send button. In the terminal pane ⌘C and ⌘V copy and paste and ⌃C reaches the shell; Settings search opens with ⌘F. Windows and Linux are unchanged.
+- The installed app's menu no longer has Reload or the developer tools; they are kept only for people building MjPetz. On a Mac, ⌘R no longer reloads the window, which restarted the chat and stopped commands running in the terminal pane.
+- Mj: Desktop Run & Gun no longer leaves anyone stuck when it pauses. A small box at the bottom right of the screen now has Resume and Close game buttons you can click, on Windows, Mac and Linux. It names the shortcut keys the way your computer writes them (Control + Option + G on a Mac) and only if they work. The pet's Play a game menu also has Close Mj: Desktop Run & Gun while it is open.
+- Agents now answer about you from what they already know first, and use the Second Brain as an extra. An empty Second Brain no longer makes an agent act as if it does not know you. MjPetz also no longer tells agents you are on a Windows desktop when you are on a Mac or Linux.
+- Edit channel now has the channel's GitHub project, the same as New channel: a channel made without one can get one later. A channel that has one shows it, with a GitHub project… button that opens the same project window as the channel's ⋮ menu. A guest of a shared channel sees the host's project but cannot change it.
+
 ## 0.7.66 (27 November 2026)
 
 - A Games button in the side rail opens a Games page with a card for each game: a picture of it, what it is, and Play (or Try 10 min for a Pro game, or Close when it is already open). The button is violet and glows softly until you have opened it once.
