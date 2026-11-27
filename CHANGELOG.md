@@ -2,6 +2,16 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.68 (27 November 2026)
+
+- Shared channels: someone who joined a channel can now leave it (Leave channel… in the channel's ⋮ menu), and the person who shared it can stop sharing it (Stop sharing…). Each side keeps its copy of what was said unless they delete it.
+- The person who shared a channel can Remove someone, or Remove and block them so a new invite does not let that computer back in until they Unblock it. A block is tied to that computer's MjPetz identity: a reinstall or another computer counts as a new one, which still has to be let in.
+- Any end of a membership (Leave, Stop sharing, Remove, Remove and block) turns off everything both sides had allowed there, and work running for the other side stops. Joining again starts with nothing turned on. Access to the channel's GitHub project is taken back on GitHub too; if GitHub cannot be reached, MjPetz says so and tries again.
+- Whoever is removed, or whose host stops sharing, is told at once if their MjPetz is open and connected. One that is away is not told: when it comes back, the channel says it is not connected (with a way to ask for a new invite) instead of looking stuck.
+- A new People and access… window shows everyone in a shared channel and what you allowed each of them, with a switch for each and Take everything back.
+- Removing one person while others stay in does not change the channel's key: the relay refuses the removed computer from then on, and the confirmation says so. The sure way to cut off reading is Stop sharing, then share again with the others. If the person on the other side runs an older MjPetz, it cannot hear a leave: ask them to remove you. Going back to 0.7.67 or older loses the block list.
+- When the relay closes a shared-channel connection right after it opens, or the network cannot be reached, MjPetz now waits about 1, 2, 4, 8 and 16 seconds and then 30 seconds between tries. A connection that had worked for over a minute and drops once is tried again after about a second.
+
 ## 0.7.67 (27 November 2026)
 
 - On a Mac, keyboard shortcuts now read the Mac way, with ⌘, ⌥ and ⇧ (for example ⌘N for New chat and ⌥⌘G for Rename chat), in Settings, the shortcut list, the huddle and the send button. In the terminal pane ⌘C and ⌘V copy and paste and ⌃C reaches the shell; Settings search opens with ⌘F. Windows and Linux are unchanged.
