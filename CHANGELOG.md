@@ -2,6 +2,17 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.66 (27 November 2026)
+
+- A Games button in the side rail opens a Games page with a card for each game: a picture of it, what it is, and Play (or Try 10 min for a Pro game, or Close when it is already open). The button is violet and glows softly until you have opened it once.
+- On the Games page and the Second Brain page, a banner at the top says when an agent is waiting for your approval or your answer, with Go to chat to take you straight to it. The banner never answers anything for you.
+- Dark colours Navy, Cocoa, Forest, Plum, Amethyst and Amber: the Use and Download buttons in Settings, Welcome, Voice and Fix text had dark text on a dark button and could not be read. They now have light text, like every other button. Pop and Graphite look exactly as before.
+- When an agent cannot start, its saved conversation now waits for the next try, however many tries fail. If the agent crashes while loading that conversation, the next try starts a new one and the chat says so. If it is only slow to load, the conversation is kept; a new one is started only after it hangs twice in a row within half an hour. Stop and Offline only always keep the conversation.
+- Second Brain: a pin, change or Forget made just as MjPetz closes, or when Windows logs off or shuts down, is kept after a restart. A note you forgot is never written back by a pin or a save that was waiting. Undo brings the older note back, and says so if it cannot. Forget with its history says “1 of 2 forgotten” when one file could not be deleted.
+- Installing an update no longer waits when Qwen Code is open but idle. A turn that is really running still stops the install. This works from the update after this one: the install over 0.7.65 can still wait.
+- The What’s new card fits in the small Window chat again, and the arrow keys in the model menu no longer jump back while you choose.
+- Sign-in Details under a connector keep the service’s own words, such as “code verifier”, and its full stops.
+
 ## 0.7.65 (26 November 2026)
 
 - A new colour, Pop, in Settings › Appearance for both Light and Dark: a bright, playful look with white cards on a light grid, rounder pill buttons, one strong blue and small splashes of orange, green, red and violet. Its dark version has near-black cards. The other colours are unchanged.
