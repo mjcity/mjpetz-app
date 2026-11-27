@@ -2,6 +2,16 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.65 (26 November 2026)
+
+- A new colour, Pop, in Settings › Appearance for both Light and Dark: a bright, playful look with white cards on a light grid, rounder pill buttons, one strong blue and small splashes of orange, green, red and violet. Its dark version has near-black cards. The other colours are unchanged.
+- When a newer MjPetz is out, the Studio chat shows a green glowing download button on the left, just above Settings. Click it for the download page. Dismiss in Settings › Updates hides it, and it is hidden while Offline only is on.
+- The tok/s under the message box now shows how fast the model writes. For a model server it used to include the wait while the server read a long prompt, so it showed about half the real speed. Hovering it explains what it measures.
+- Slack and Gmail: when sign-in fails, Details under the connector now shows the reason the service gave. Anything that looks like a code, token or secret is hidden.
+- Second Brain: if the list of which notes are yours cannot be read or written for a moment because another program is holding the file, MjPetz tries again and your notes stay yours. It tells you plainly when a save or a forget could not be recorded yet.
+- Second Brain: a one-off error reading the key that signs your notes is tried again, and “Start a new key” is offered only when the error repeats. MjPetz never makes a new key over one that is there.
+- Second Brain: “remember that …” is saved as soon as your message is taken, so it is kept even if the agent cannot start, the turn fails or you press Stop. A full Second Brain now says so.
+
 ## 0.7.64 (26 November 2026)
 
 - The Second Brain page scrolls and takes clicks again. It was redrawing its list without stopping, so the scroll jumped back to the top and clicks on the filters and the row buttons were lost.
