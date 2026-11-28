@@ -2,6 +2,17 @@
 
 What changed in each MjPetz release, in plain words. The newest release is at the top.
 
+## 0.7.69 (27 November 2026)
+
+- The local brain now answers "I can't delete files" to more requests to delete a file or a folder named by its path or its file name: whatever its folders are called, when other requests are in the same message, when the files are listed on the lines below, and in long messages and messages with pasted text. Before, some folder and file names, some other words in the message, and notes MjPetz adds to it let the request go on to the model instead. Every request that got "I can't delete files" before still gets it. Not covered yet: other wordings ("get rid of", "rm", "del"), other languages, a drive or folder named without a slash ("Delete D:", "Delete AppData"), a request to write a command and then run it, and in a long message a delete that is not at the start of its sentence.
+- The Help button in Settings, API models now shows short help right there in Settings, on how to add a key or your own model server. It used to open a page that buyers could not open. It works offline too. Esc closes it.
+- **Key storage on Linux:** on a Linux computer with no keyring, MjPetz no longer keeps or uses API keys, connector sign-ins (Gmail, Slack, Notion, GitHub), the saved tokens and headers of MCP servers, or the Chrome extension token, because there they cannot really be encrypted. Keys and sign-ins saved there before stay on disk but are no longer used; an API key's row says it is not protected and offers to remove it. Settings says this on each page, with what to do: set up a keyring (GNOME Keyring or KWallet), then restart MjPetz. Windows, Mac and Linux with a keyring are unchanged.
+- In Settings, API models, a provider or model server that refuses its key now says "Key refused", one that needs a key and has none says "Needs a key", and one added while it did not answer says "Not reachable" at once.
+- Agent logs and error details hide credentials in split headers, callback links, signed links, and connection URLs while keeping ordinary error codes readable. The agent profile log also hides private key blocks.
+- Installing an update no longer waits for an idle Qwen Code that runs on your own model server or a provider. The fix in 0.7.66 only knew the plain Qwen Code, so the installs of 0.7.67 and 0.7.68 still waited about 15 minutes. A turn that is really running, a message waiting, a question waiting for your answer or a program the agent started for its work still stops the install. If an older MjPetz is open while you install, closing it can still take up to about 15 minutes.
+- Block Brawl Chess now plays on a Mac and on Linux. It opens in its own window there, with the same Pro trial and saved games as on Windows. On Windows it still plays right over your desktop.
+- Agent replies and Markdown file previews can no longer imitate MjPetz approval cards or trigger the waiting banner. Regular Markdown still works, including tables, code blocks and checklists.
+
 ## 0.7.68 (27 November 2026)
 
 - Shared channels: someone who joined a channel can now leave it (Leave channel… in the channel's ⋮ menu), and the person who shared it can stop sharing it (Stop sharing…). Each side keeps its copy of what was said unless they delete it.
